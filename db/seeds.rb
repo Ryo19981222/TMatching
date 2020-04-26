@@ -1,0 +1,6 @@
+Category.find_or_create_by(name:"文科一類")
+Category.find_or_create_by(name:"文科二類")
+Category.find_or_create_by(name:"文科三類")
+Category.find_or_create_by(name:"理科一類")
+Category.find_or_create_by(name:"理科二類")
+Category.find_or_create_by(name:"理科三類")

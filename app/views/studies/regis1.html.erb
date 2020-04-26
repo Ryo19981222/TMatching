@@ -1,0 +1,10 @@
+<h2>登録をお願いします</h2>
+
+<%= form_tag("/create1") do %>
+    <%= text_field :tutor, :family, placeholder: "姓"%>
+    <%= text_field :tutor, :first, placeholder: "名"%>
+    <%= text_field :tutor, :highschool, placeholder: "卒業高校"%>
+    <%= text_field :tutor, :wage, placeholder: "希望時給"%>
+    <%= select_tag 'tutor[category_id]', options_from_collection_for_select(@categories, :id, :name) %>
+    <%= submit_tag "登録"%>
+<% end %>

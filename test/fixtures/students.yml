@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  family: MyString
+  first: MyString
+  highchool: MyString
+  choiceschool: MyString
+
+two:
+  family: MyString
+  first: MyString
+  highchool: MyString
+  choiceschool: MyString

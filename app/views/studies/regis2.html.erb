@@ -1,0 +1,9 @@
+<h1>生徒の無料登録フォーム</h1>
+
+<%= form_tag("/create2") do %>
+    <%= text_field :student, :family, placeholder: "姓"%>
+    <%= text_field :student, :first, placeholder: "名"%>
+    <%= text_field :student, :highschool, placeholder: "高校"%>
+    <%= text_field :student, :choiceschool, placeholder: "志望大学"%>
+    <%= submit_tag "登録"%>
+<% end %>
